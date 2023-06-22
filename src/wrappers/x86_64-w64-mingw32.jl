@@ -3,12 +3,18 @@ export imgcmp, imginfo, jasper, libjasper
 
 using JpegTurbo_jll
 JLLWrappers.@generate_wrapper_header("JasPer")
+JLLWrappers.@declare_library_product(libjasper, "libjasper.dll")
 JLLWrappers.@declare_executable_product(imgcmp)
 JLLWrappers.@declare_executable_product(imginfo)
 JLLWrappers.@declare_executable_product(jasper)
-JLLWrappers.@declare_library_product(libjasper, "libjasper.dll")
 function __init__()
     JLLWrappers.@generate_init_header(JpegTurbo_jll)
+    JLLWrappers.@init_library_product(
+        libjasper,
+        "bin\\libjasper.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         imgcmp,
         "bin\\imgcmp.exe",
@@ -22,12 +28,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         jasper,
         "bin\\jasper.exe",
-    )
-
-    JLLWrappers.@init_library_product(
-        libjasper,
-        "bin\\libjasper.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()

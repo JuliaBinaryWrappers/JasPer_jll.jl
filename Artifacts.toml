@@ -1,115 +1,143 @@
 [[JasPer]]
 arch = "aarch64"
-git-tree-sha1 = "8a2ea07600ac42d0390336fdab6aff48e9a6e89e"
-libc = "glibc"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "2e7e1f8130c4ea404bf01159d890c6a0f7881ab6a810ff9185a682da6ad76a15"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.aarch64-linux-gnu.tar.gz"
-[[JasPer]]
-arch = "aarch64"
-git-tree-sha1 = "89338102e79c59d482579669248bf88aa9fc102a"
-libc = "musl"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "0e557c730ace5bccc86d945387b0f8123035e9c6fab71ea584569c5c9fea6ff0"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.aarch64-linux-musl.tar.gz"
-[[JasPer]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "6fd95ae75ed90c3e931a75a15d4c6f4187f9a43a"
-libc = "glibc"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "409d447d0a0f2cf457a62027cb3efed03e71419836dcc84944658355ebb54b44"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.armv7l-linux-gnueabihf.tar.gz"
-[[JasPer]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d2449efb55180fefe19c53c090142aa0b139b770"
-libc = "musl"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "4ad5e406c9cd67dcae5c044619871d5310f5a6bd408109f53c231d3b169788be"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.armv7l-linux-musleabihf.tar.gz"
-[[JasPer]]
-arch = "i686"
-git-tree-sha1 = "df5461008dee39768940d1a28aa9a911a8a44b65"
-libc = "glibc"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "9e00aa54d1f95047d1ae2eec4ae539e7dbec2e8ccd2aeae0c590edac12841e8e"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.i686-linux-gnu.tar.gz"
-[[JasPer]]
-arch = "i686"
-git-tree-sha1 = "1214d771ad5f0b4ea7c88ea34ccc13f2ad803942"
-libc = "musl"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "6ab54eb620b53a52d30b27155953e27d7b64e24cd3515d46c2664addf3ad1188"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.i686-linux-musl.tar.gz"
-[[JasPer]]
-arch = "i686"
-git-tree-sha1 = "fa8ef618397e630b1a288386bd2a76653c2c2431"
-os = "windows"
-
-    [[JasPer.download]]
-    sha256 = "82cbc2f808de1c337826c5b3e8fb4ae2202b2c297f65d8aa08dbcb7ac38e3f66"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.i686-w64-mingw32.tar.gz"
-[[JasPer]]
-arch = "powerpc64le"
-git-tree-sha1 = "7a419c8b4f24b88aaaa48523d9b5cef1132f2b04"
-libc = "glibc"
-os = "linux"
-
-    [[JasPer.download]]
-    sha256 = "7113232fa7d221c89f8f47b3196b1d79095e342a76e61b5f6f233f23b6ec1685"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.powerpc64le-linux-gnu.tar.gz"
-[[JasPer]]
-arch = "x86_64"
-git-tree-sha1 = "6c4bb73c0a428e402a66b8eab607431db24d0638"
+git-tree-sha1 = "0999ba10589454ba261c1d8d83aed1e36951d24b"
 os = "macos"
 
     [[JasPer.download]]
-    sha256 = "79583ae4621f2f6c4618dc8e52305ce53d0d9253eb72101ac0fdba10bc41c198"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.x86_64-apple-darwin.tar.gz"
+    sha256 = "905a09bbb3c48f83fa214e27b836c81d0f25438cd060328b8402492fee21fe52"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.aarch64-apple-darwin.tar.gz"
 [[JasPer]]
-arch = "x86_64"
-git-tree-sha1 = "0f3813e149a22bd27a1c9c97cfd80070be1809e2"
+arch = "aarch64"
+git-tree-sha1 = "99664a243b89bdadcdfdc8b090facc83b19988b9"
 libc = "glibc"
 os = "linux"
 
     [[JasPer.download]]
-    sha256 = "992541d88cd01a001ff950ba6301dac74abb21656294e4f5f4a23b730d3ff093"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.x86_64-linux-gnu.tar.gz"
+    sha256 = "d715da755cb1f2678a8ba806f9ad5016842ea704cdda6a8e06263a10aa22b35f"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.aarch64-linux-gnu.tar.gz"
 [[JasPer]]
-arch = "x86_64"
-git-tree-sha1 = "a093c69a40db6ad874fb4deb4471674de50216e2"
+arch = "aarch64"
+git-tree-sha1 = "4f122bf9ec5a8b82e049aebdcaa954e621a5106b"
 libc = "musl"
 os = "linux"
 
     [[JasPer.download]]
-    sha256 = "d5e5978e867242f80a76ccc4c5f429fa3718829c60c6fe3f1237c9e0a06cd8e9"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.x86_64-linux-musl.tar.gz"
+    sha256 = "013a65584c41a83b33d0d437aacd0f6806f6b5923c389c32653b1ec2358b5880"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.aarch64-linux-musl.tar.gz"
 [[JasPer]]
-arch = "x86_64"
-git-tree-sha1 = "d432a865b5a7965d29b1014ddd6f89b4a991124b"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "23187545fc8509dbf8235d7f46c4ba4929698c0e"
+libc = "glibc"
+os = "linux"
 
     [[JasPer.download]]
-    sha256 = "80166fb60453ce743a226bc69bb4525a681f1c4c526f1395235850ddae06fafc"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "f0834c029b05982d06174466fb4af8136c0bdedeffddc4ffa95c1f8a3796caa5"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.armv6l-linux-gnueabihf.tar.gz"
 [[JasPer]]
-arch = "x86_64"
-git-tree-sha1 = "9e2a9583dd7a66a4a19b8ed90a3ca1e8c06edc2e"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5e39da99723b823f718db6fa5b305e5ff612139e"
+libc = "musl"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "1b9b7a44a46de4610e9e95670a5d59c5a8867a78e68512a2ae6f334028ad3052"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.armv6l-linux-musleabihf.tar.gz"
+[[JasPer]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d5a411f5c66b0572699946f15b18f7c5852ae0b0"
+libc = "glibc"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "7a509a269b349f6f48a9386fe02aaccdabb134f8479f9af3573158ac24661302"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.armv7l-linux-gnueabihf.tar.gz"
+[[JasPer]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9ef104760ad18b84b79860e917184f8ace36e113"
+libc = "musl"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "133e6284f63894a8bda02e72232f4d1a3a53a688fd4179c39dd6aab8ecc93e8a"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.armv7l-linux-musleabihf.tar.gz"
+[[JasPer]]
+arch = "i686"
+git-tree-sha1 = "e3e979879857314ca8905dcf601f2c367cd04ec6"
+libc = "glibc"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "cc1c6ee6bc6b01990969637b2e35fda9d164ddd1905f375c8dd3d2eaa02fed4d"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.i686-linux-gnu.tar.gz"
+[[JasPer]]
+arch = "i686"
+git-tree-sha1 = "d1fd324e22c65fa48a8615afcbec96c6931ebd8d"
+libc = "musl"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "c1dbd5a36f7b2e83c22a59d252e330daa6e255ea67997278b6a0e7cd8184c51c"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.i686-linux-musl.tar.gz"
+[[JasPer]]
+arch = "i686"
+git-tree-sha1 = "9eb1546f6aedfeb168c1459a2370496c5540ff63"
 os = "windows"
 
     [[JasPer.download]]
-    sha256 = "893940c2543efea89a968d23efd333a6ef4c1631f25442c79ff6c3fff5068816"
-    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.28+0/JasPer.v2.0.28.x86_64-w64-mingw32.tar.gz"
+    sha256 = "7203bbc2b8afc03fdc461ffad18ee7f5b9cb795ca0bcad6263586ba2b534ede9"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.i686-w64-mingw32.tar.gz"
+[[JasPer]]
+arch = "powerpc64le"
+git-tree-sha1 = "58b986d20be982292a05fadfafce5fb80a2bc542"
+libc = "glibc"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "7d36afc9f5d91d8a83ee9410942830c58b67c59d7ced566de1776d086eda71bb"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.powerpc64le-linux-gnu.tar.gz"
+[[JasPer]]
+arch = "x86_64"
+git-tree-sha1 = "3a03b2ae42ce369d084a1a2be7ef4ab6e3046a5a"
+os = "macos"
+
+    [[JasPer.download]]
+    sha256 = "0855697b500ebb94269d8d668085b85fc2e00d08a6aad2929ac3c96218ec062b"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.x86_64-apple-darwin.tar.gz"
+[[JasPer]]
+arch = "x86_64"
+git-tree-sha1 = "f427133264f1328b8dbdaacf253d79664b4a32df"
+libc = "glibc"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "355f17d586e80f68e09740764d3147e14cc3c11457c08dcf7af3694660814f3e"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.x86_64-linux-gnu.tar.gz"
+[[JasPer]]
+arch = "x86_64"
+git-tree-sha1 = "b7d89545fcdfdfd2810e84c4510e0806d2f16d9b"
+libc = "musl"
+os = "linux"
+
+    [[JasPer.download]]
+    sha256 = "45c8fc008443c06a96518b39c651348bed2a11df06f1bacca21e9c4de76c063f"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.x86_64-linux-musl.tar.gz"
+[[JasPer]]
+arch = "x86_64"
+git-tree-sha1 = "dd25872c1b8be35ed28460fc1d9a91520e8e9908"
+os = "freebsd"
+
+    [[JasPer.download]]
+    sha256 = "04a1c01744e6a2a49d8f774b64f91672974d09a364d8a4b12bf5d8c99ce5d946"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.x86_64-unknown-freebsd.tar.gz"
+[[JasPer]]
+arch = "x86_64"
+git-tree-sha1 = "c7e4646bee2e3dda5ed98ca2aa379b8ad181c5a4"
+os = "windows"
+
+    [[JasPer.download]]
+    sha256 = "078ed3a293d4a430975447be8109bf7434127e1aca0aec325b7dc9f724accba1"
+    url = "https://github.com/JuliaBinaryWrappers/JasPer_jll.jl/releases/download/JasPer-v2.0.33+0/JasPer.v2.0.33.x86_64-w64-mingw32.tar.gz"
